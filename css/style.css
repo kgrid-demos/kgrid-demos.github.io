@@ -746,32 +746,6 @@ h3.customheading {
 	font-weight: 600;
 	color: #00274c;
 }
-/*
-.sidenav>li span.stub {
-	display: block;
-	position: absolute;
-	bottom:0;
-	margin: auto;
-	height: 0px;
-	width: 2px;
-	background: transparent;
-	transition: height .5s ease;
-}
-.sidenav>li.active span.stub {
-background: #00274c;
-height:40px;
-}*/
-
-.avatar-md {
-	border-radius:50%;
-	border: 3px solid #fff;
-	width: 80px;
-}
-.avatar-mo {
-	border-radius:50%;
-	border: 3px solid #fff;
-	width: 140px;
-}
 /*Toggle Button*/
 
 .navbar-toggle {
@@ -895,9 +869,7 @@ Media queries
 		height: 90px;
 		padding: 10px;
 	}
-	.avatar-md {
-		width: 70px;
-	}
+
 	section.featured h1.slogan {
   font-size:32px;
 }
@@ -1000,15 +972,12 @@ section.featured h3.slogan {
 		padding: 5px;
 	}
 
-		.avatar-md {
-			width: 60px;
-		}
 }
 
 @media only screen  and  (max-width: 767px) {
 	.kgrid-component {
-		width: 200px;
-		height:200px;
+		width: 100px;
+		height:100px;
 		background-size: 900px 200px;
 	}
 	.kgrid-component#k-object {
@@ -1017,6 +986,9 @@ section.featured h3.slogan {
 	.kgrid-component#k-library{
 			/*background-size: 480px 100px;*/
 			background-position: -246px 0px;
+	}
+	.manual {
+		margin:20px auto;
 	}
 	.kgrid-component#k-activator{
 			/*background-size: 510px 112px;*/
@@ -1120,10 +1092,6 @@ section.featured h3.slogan {
 		padding: 5px;
 	}
 
-
-	.avatar-md {
-			width: 60px;
-	}
 	.secheader h2 {
 		font-size:18px;
 		font-weight: 600;
