@@ -1,0 +1,83 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: 'CPIC - Genotype to Phenotype for UGT1A1'
+  description: 'KGrid CPIC guidelines Genotype to Phenotype for UGT1A1'
+servers:
+  - url: 'http://kgrid.med.umich.edu/stack2'
+paths:
+  /shelf/ark:/99999/fk4mc97w0h:
+    get:
+      description: Retrieve the knowledge object.
+      operationId: getko
+      responses:
+        '200':
+          description: response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DosingRecOutput'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /knowledgeObject/ark:/99999/fk4mc97w0h/result:
+    post:
+      description: Determine the pheno type based on the genotype.
+      operationId: pheno
+      requestBody:
+        description: inputs
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/inputs'
+      responses:
+        '200':
+          description: response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DosingRecOutput'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+components:
+  schemas:
+    inputs:
+      required:
+        - allele1
+        - allele2
+        - diplotype
+      properties:
+        allele1:
+          type: string
+          example: '*5'
+        allele2:
+          type: string
+          example: '*28'
+        diplotype:
+          type: string
+          example: ''
+    DosingRecOutput:
+      required:
+        - result
+      properties:
+        result:
+          type: string
+          example: 'metabolizer'
+    Error:
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: integer
+          format: int32
+        message:
+          type: string
