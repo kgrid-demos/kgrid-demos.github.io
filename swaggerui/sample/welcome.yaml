@@ -1,8 +1,8 @@
 openapi: 3.0.0
 info:
   version: 1.0.0
-  title: 'Hello, World'
-  description: 'hello world'
+  title: 'Welcome to Knowledge Grid'
+  description: 'Welcome to Knowledge Grid'
 servers:
   - url: 'http://localhost:8080/99999/newko/v0.0.1'
 paths:
