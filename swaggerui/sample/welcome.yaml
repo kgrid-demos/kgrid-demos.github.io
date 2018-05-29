@@ -4,7 +4,7 @@ info:
   title: 'Hello, World'
   description: 'hello world'
 servers:
-  - url: 'http://localhost:8080/99999/00001/v0.0.1'
+  - url: 'http://localhost:8080/99999/newko/v0.0.1'
 paths:
   /welcome:
     post:
