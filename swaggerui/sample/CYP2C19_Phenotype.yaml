@@ -1,8 +1,8 @@
 openapi: 3.0.0
 info:
   version: 1.0.0
-  title: 'CPIC - Genotype to Phenotype for UGT1A1'
-  description: 'KGrid CPIC guidelines Genotype to Phenotype for UGT1A1'
+  title: 'CPIC - Genotype to Phenotype for CYP2C19'
+  description: 'KGrid CPIC guidelines Genotype to Phenotype for CYP2C19'
 servers:
   - url: 'http://kgrid.med.umich.edu/stack2'
 paths:
