@@ -35,7 +35,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
-  /ark:/99999/fk4805c32z/interpretLungCancerRisk:
+  /ark:/99999/fk4805c32z/result:
     post:
       description: Gets the interpretation for calculated lung cancer risk score.
       operationId: intepreteriskscore
