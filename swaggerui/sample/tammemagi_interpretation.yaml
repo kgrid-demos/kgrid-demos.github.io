@@ -45,7 +45,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/PatientRiskScoreOutput'
+              $ref: '#/components/schemas/PatientRiskIutput'
       responses:
         '200':
           description: response with risk score
@@ -132,6 +132,16 @@ components:
     PatientRiskScoreOutput:
       required:
         - riskscore
+      properties:
+        riskscore:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 100
+          example: 6
+    PatientRiskIutput:
+      required:
+        - risk
       properties:
         riskscore:
           type: number
