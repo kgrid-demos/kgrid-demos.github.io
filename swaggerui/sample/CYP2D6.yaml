@@ -32,7 +32,7 @@ paths:
                   $ref: '#/components/schemas/Error'
   /ark:/99999/fk4mc97w6m/result:
     post:
-      description: Retrieve Dosing Recommendation based on the pheno type.
+      description: Retrieve Codeine Dosing Recommendation based on CYP2D6 pheno type.
       operationId: recomm
       requestBody:
         description: Input of phenotype
