@@ -4,26 +4,9 @@ info:
   title: 'CPIC CYP2D6 Codeine Recommendations'
   description: 'KGrid CPIC guidelines CYP2D6 Phenotype to Recommendation'
 servers:
-  - url: 'http://kgrid.med.umich.edu/stack2'
+  - url: 'http://kgrid.med.umich.edu/stack2/knowledgeObject/ark:/99999/fk4mc97w6m'
 paths:
-  /shelf/ark:/99999/fk4mc97w6m:
-    get:
-      description: Retrieve the knowledge object.
-      operationId: getko
-      responses:
-        '200':
-          description: response
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/DosingRecOutput'
-        default:
-          description: unexpected error
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Error'
-  /knowledgeObject/ark:/99999/fk4mc97w6m/result:
+  /result:
     post:
       description: Retrieve Dosing Recommendation based on the pheno type.
       operationId: recomm

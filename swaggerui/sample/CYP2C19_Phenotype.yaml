@@ -4,26 +4,9 @@ info:
   title: 'CPIC - Genotype to Phenotype for CYP2C19'
   description: 'KGrid CPIC guidelines Genotype to Phenotype for CYP2C19'
 servers:
-  - url: 'http://kgrid.med.umich.edu/stack2'
+  - url: 'http://kgrid.med.umich.edu/stack2/knowledgeObject/ark:/99999/fk4mc97w0h'
 paths:
-  /shelf/ark:/99999/fk4mc97w0h:
-    get:
-      description: Retrieve the knowledge object.
-      operationId: getko
-      responses:
-        '200':
-          description: response
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/DosingRecOutput'
-        default:
-          description: unexpected error
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Error'
-  /knowledgeObject/ark:/99999/fk4mc97w0h/result:
+  /result:
     post:
       description: Determine the pheno type based on the genotype.
       operationId: pheno

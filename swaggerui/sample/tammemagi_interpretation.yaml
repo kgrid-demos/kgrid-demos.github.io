@@ -1,0 +1,158 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: 'Tammemagi, 6 year Lung Cancer Risk Prediction Model for Screening'
+  description: >-
+    For adults ages 50 and over, this is a validated lung cancer risk prediction
+    model that can be used to guide decisions about lung cancer screening. This
+    model was created within a collection of lung cancer models including Spitz
+    Model, Etzel Model, Park Model, Marcus Model, Hoggart Model, Cassidy Model,
+    and Bach Model.
+servers:
+  - url: http://kgrid.med.umich.edu/stack2/knowledgeObject
+paths:
+  /ark:/99999/fk4jh3tk9s/result:
+    post:
+      description: Gets lung cancer risk score.
+      operationId: getrisk
+      requestBody:
+        description: inputs for Tammemagi predictive model
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatientDataInput'
+      responses:
+        '200':
+          description: response with risk score
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PatientRiskScoreOutput'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /ark:/99999/fk4805c32z/interpretLungCancerRisk:
+    post:
+      description: Gets the interpretation for calculated lung cancer risk score.
+      operationId: intepreteriskscore
+      requestBody:
+        description: inputs for Tammemagi predictive model
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatientRiskScoreOutput'
+      responses:
+        '200':
+          description: response with risk score
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PatientRiskInterpretation'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+components:
+  schemas:
+    PatientDataInput:
+      required:
+        - age
+        - edLevel
+        - bmi
+        - hxNonLungCancerDz
+        - hxLungCancer
+        - hxLungCancerFam
+        - ethnicity
+        - yrsQuit
+        - cigsPerDay
+        - yrsSmoker
+      properties:
+        age:
+          type: number
+          format: float
+          minimum: 0
+          example: 45
+        edLevel:
+          type: integer
+          format: int32
+          minimum: 1
+          maximum: 6
+          example: 1
+        bmi:
+          type: number
+          format: float
+          minimum: 0
+          example: 22
+        hxNonLungCancerDz:
+          type: integer
+          format: int32
+          minimum: 0
+          maximum: 1
+          example: 1
+        hxLungCancer:
+          type: integer
+          format: int32
+          minimum: 0
+          maximum: 1
+          example: 1
+        hxLungCancerFam:
+          type: integer
+          format: int32
+          minimum: 0
+          maximum: 1
+          example: 1
+        ethnicity:
+          type: integer
+          format: int32
+          minimum: 1
+          maximum: 6
+          example: 1
+        yrsQuit:
+          type: integer
+          format: int32
+          minimum: 0
+          example: 0
+        cigsPerDay:
+          type: integer
+          format: int32
+          minimum: 0
+          example: 10
+        yrsSmoker:
+          type: integer
+          format: int32
+          minimum: 0
+          example: 10
+    PatientRiskScoreOutput:
+      required:
+        - riskscore
+      properties:
+        riskscore:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 100
+          example: 6
+    PatientRiskInterpretation:
+      required:
+        - result
+      properties:
+        result:
+          type: string
+          example: sample interpretation
+    Error:
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: integer
+          format: int32
+        message:
+          type: string
