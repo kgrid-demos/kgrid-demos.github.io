@@ -102,7 +102,7 @@ components:
       properties:
         phenotype:
           type: string
-          enum: ['Ultrarapid metabolizer', 'Rapid metabolizer' 'Normal metabolizer','Likely Intermediate metabolizer', 'Intermediate metabolizer', 'Poor metabolizer', 'Likely Poor metabolizer']
+          enum: ['Ultrarapid metabolizer', 'Rapid metabolizer', 'Normal metabolizer','Likely Intermediate metabolizer', 'Intermediate metabolizer', 'Poor metabolizer', 'Likely Poor metabolizer']
           example: 'Poor metabolizer'
         choice:
           type: string
