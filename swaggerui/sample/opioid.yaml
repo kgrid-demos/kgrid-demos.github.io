@@ -4,7 +4,7 @@ info:
   title: 'Opioid Use Detector'
   description: 'This object scans a list of prescriptions and determines if the patient is exposed to an opioid.'
 servers:
-  - url: 'http://kgrid-activator.herokuapp.com/99999/10101/v0.0.1'
+  - url: 'https://kgrid-activator.herokuapp.com/99999/10101/v0.0.1'
 paths:
   /opioidDetector:
     post:

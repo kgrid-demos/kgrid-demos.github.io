@@ -4,7 +4,7 @@ info:
   title: 'Respiratory Depression Risk Indicator'
   description: 'This object scans a list of prescriptions and determines if the patient is at risk greater for drug-induced respiratory depression because of being exposed simultaneously to a known dangerous combination of an opioid, a benzodiazepine, and a muscle relaxant.'
 servers:
-  - url: 'http://kgrid-activator.herokuapp.com/99999/10101/v0.0.1'
+  - url: 'https://kgrid-activator.herokuapp.com/99999/10103/v0.0.1'
 paths:
   /tripleThreatDetector:
     post:
