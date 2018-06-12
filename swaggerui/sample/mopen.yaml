@@ -93,7 +93,7 @@ components:
       properties:
         result:
           type: string
-          example: '{summary:{},detail:{}}'
+          example: '{condition_satisfied:false,summary:{},detail:{}}'
     Error:
       required:
         - code
