@@ -4,7 +4,7 @@ info:
   title: 'Welcome to Knowledge Grid'
   description: 'Welcome to Knowledge Grid'
 servers:
-  - url: 'https://kgrid-activator-2018.herokuapp.com/99999/newko/v0.0.1'
+  - url: 'https://kgrid-activator.herokuapp.com/99999/newko/v0.0.1'
 paths:
   /welcome:
     post:
