@@ -134,9 +134,13 @@ components:
   schemas:
     genoinputs:
       required:
+        - enzym
         - allele1
         - allele2
       properties:
+        enzym:
+          type: string
+          example: 'CYP2D6'
         allele1:
           type: string
           example: '*1x2'
@@ -160,7 +164,7 @@ components:
       properties:
         result:
           type: object
-          example: {'Info':'','Recom':''}
+          example: {'enzym': 'CYP2D6', 'drug':'Codeine','recom': {}}
     KOView:
       type: object
     Error:
