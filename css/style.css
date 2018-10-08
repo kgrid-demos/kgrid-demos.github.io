@@ -972,8 +972,8 @@ section.featured h3.slogan {
 
 @media only screen  and  (max-width: 767px) {
 	.kgrid-component {
-		width: 100px;
-		height:100px;
+		width: 200px;
+		height:200px;
 		background-size: 900px 200px;
 	}
 	.kgrid-component#k-object {
@@ -985,6 +985,12 @@ section.featured h3.slogan {
 	}
 	.manual {
 		margin:20px auto;
+		padding: 50px;
+		font-size: 7em;
+	}
+
+	.manual >img {
+		width: 120px;
 	}
 	.kgrid-component#k-activator{
 			/*background-size: 510px 112px;*/
