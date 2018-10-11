@@ -43,7 +43,7 @@ export default {
 </script>
 <style lang="stylus">
 // colors
-$accentColor = #3eaf7c
+$accentColor = #0075bc
 $textColor = #333
 $borderColor = #eaecef
 $codeBgColor = #282c34
@@ -71,7 +71,7 @@ $MQMobileNarrow = 419px
   flex-grow 1
   flex-basis 40%
   max-width 45%
-  min-height 200px
+  min-height 180px
   border 2px solid $borderColor
   margin 10px
   padding 10px 16px
@@ -83,7 +83,7 @@ $MQMobileNarrow = 419px
     position absolute
     text-align center
     svg
-      color #3eaf7c
+      color #0075bc
       margin-top 10px
   .appdetail
     display inline-block
@@ -99,6 +99,8 @@ $MQMobileNarrow = 419px
       padding-bottom 0
       margin 5px 0px
       color lighten($textColor, 10%)
+      a
+        color #0075bc
     p
       color lighten($textColor, 30%)
     .actionlink
@@ -107,7 +109,7 @@ $MQMobileNarrow = 419px
       .launch
       .download
         float right
-        background-color #3eaf7c
+        background-color #0075bc
         margin 0 5px
         padding 0px 6px 3px
         a
@@ -120,7 +122,7 @@ $MQMobileNarrow = 419px
         margin 0 5px
         padding 0px 6px 3px
         a
-          color #3eaf7c
+          color #0075bc
           font-size 0.8rem
           line-height 1.2rem
 </style>

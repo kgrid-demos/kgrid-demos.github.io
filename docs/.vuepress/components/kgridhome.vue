@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="hero">
+    <div class="banner">
       <img
         v-if="data.heroImage"
         :src="$withBase(data.heroImage)"
@@ -103,7 +103,7 @@ $codeLang = js ts html md vue css sass scss less stylus go java c sh yaml py
   padding 2rem 2rem 0
   max-width 960px
   margin 0px auto
-  .hero
+  .banner
     text-align left
     img
       max-height 160px
