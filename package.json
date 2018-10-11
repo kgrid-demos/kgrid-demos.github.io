@@ -5,7 +5,13 @@
   "main": " ",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploydocs": "scripty"
+  },
+  "scripty": {
+    "path": "scripts",
+    "windowsPath": "scriptswin",
+    "silent": true
   },
   "author": "KGrid Team",
   "license": "MIT",
@@ -15,6 +21,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.5",
     "@fortawesome/free-solid-svg-icons": "^5.4.0",
-    "@fortawesome/vue-fontawesome": "^0.1.1"
+    "@fortawesome/vue-fontawesome": "^0.1.1",
+    "scripty": "^1.8.0"
   }
 }
