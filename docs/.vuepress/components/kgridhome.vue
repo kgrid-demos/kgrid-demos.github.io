@@ -111,9 +111,9 @@ $codeLang = js ts html md vue css sass scss less stylus go java c sh yaml py
       margin 1.5rem auto
     .heroContent
       display inline-block
-      padding 20px
       position absolute
       margin-top 1rem
+      margin-left 2rem
     h1
       font-size 2.5rem
       color #656565
@@ -189,30 +189,64 @@ $codeLang = js ts html md vue css sass scss less stylus go java c sh yaml py
 
 @media (max-width: $MQMobile)
   .home
-    .features
-      flex-direction column
+    padding-left 1.5rem
+    padding-right 1.5rem
+    padding-top 0
+    .banner
+      text-align center
+      margin-bottom 3.6rem
+      img
+        max-height 140px
+        margin 1.4rem auto 0.6rem
+      .heroContent
+        display block
+        margin-top 0
+        padding-top 1rem
+        position relative
+        margin-left 0
+        h1
+          font-size 1.4rem
+        h1, .description, .action
+          margin 0 auto
+        .description
+          font-size 1.2rem
+        .action-button
+          font-size 1rem
+          padding 0.6rem 1.2rem
     .feature
       max-width 100%
       padding 0 2.5rem
+      h2
+        font-size 1.25rem
+    .features
+      flex-direction column
+
 
 @media (max-width: $MQMobileNarrow)
   .home
     padding-left 1.5rem
     padding-right 1.5rem
-    .hero
+    padding-top 0
+    .banner
+      text-align center
+      margin-bottom 0.6rem
       img
-        max-height 210px
-        margin 2rem auto 1.2rem
-      h1
-        font-size 2rem
-      h1, .description, .action
-        margin 1.2rem auto
-      .description
-        font-size 1.2rem
-      .action-button
-        font-size 1rem
-        padding 0.6rem 1.2rem
+        max-height 100px
+        margin 1.4rem auto 0.6rem
+      .heroContent
+        display block
+        margin-top 0
+        padding-top 1rem
+        h1
+          font-size 1.1rem
+        h1, .description, .action
+          margin 0 auto
+        .description
+          font-size 1rem
+        .action-button
+          font-size 1rem
+          padding 0.6rem 1.2rem
     .feature
       h2
-        font-size 1.25rem
+        font-size 1rem
 </style>

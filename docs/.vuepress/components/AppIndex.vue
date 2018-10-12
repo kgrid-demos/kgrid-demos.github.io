@@ -1,32 +1,29 @@
 
 <template>
 <div class='apps'>
-    <div class='apppreview' v-for="post in posts">
-      <div class='apptitle'>
+  <div class='apppreview' v-for="post in posts">
+    <div class='appicon'>
       <img
         v-if="post.frontmatter.icon"
         :src="$withBase(post.frontmatter.icon)"
-        alt="icon" width="100px"
+        alt="icon" width="80px"
       >
       <font-awesome-icon :icon="post.frontmatter.fa" v-if="post.frontmatter.fa" size="4x"></font-awesome-icon>
-      </div>
-      <div class='appdetail'>
-        <h2>
-            <a :href="post.frontmatter.guideurl">{{ post.frontmatter.title }}</a>
-        </h2>
-
-        <p >{{ post.frontmatter.description }}</p>
-
-        <!-- <p><a :href="post.frontmatter.guideurl">Learn more</a></p> -->
-        <p class='actionlink'>
-        <label class='launch' v-if='post.frontmatter.appurl'><a :href="post.frontmatter.appurl">Launch App</a></label>
-        <label class='download' v-if='post.frontmatter.downloadurl'><a :href="post.frontmatter.downloadurl">Download Kit</a></label>
-        <label class='guide' v-if='post.frontmatter.guideurl'><a :href="post.frontmatter.guideurl">Learn More</a></label>
-
-</p>
-
-</div>
     </div>
+    <div class='apptitle'>
+      <h2>
+        <a :href="post.frontmatter.guideurl">{{ post.frontmatter.title }}</a>
+      </h2>
+    </div>
+    <div class='appdetail'>
+      <p >{{ post.frontmatter.description }}</p>
+    </div>
+    <div class='actionlink'>
+      <label class='launch' v-if='post.frontmatter.appurl'><a :href="post.frontmatter.appurl">Launch App</a></label>
+      <label class='download' v-if='post.frontmatter.downloadurl'><a :href="post.frontmatter.downloadurl">Download Kit</a></label>
+      <label class='guide' v-if='post.frontmatter.guideurl'><a :href="post.frontmatter.guideurl">Learn More</a></label>
+    </div>
+  </div>
 </div>
 </template>
 
@@ -60,8 +57,8 @@ $MQMobile = 719px
 $MQMobileNarrow = 419px
 .apps
   border-top none
-  padding 1.2rem 0
-  margin-top 2.5rem
+  padding 2rem 0
+  margin-top 0
   display flex
   flex-wrap wrap
   align-items flex-start
@@ -76,7 +73,7 @@ $MQMobileNarrow = 419px
   margin 10px
   padding 10px 16px
   position relative
-  .apptitle
+  .appicon
     width: 100px
     height 100px
     display inline-block
@@ -85,12 +82,13 @@ $MQMobileNarrow = 419px
     svg
       color #0075bc
       margin-top 10px
-  .appdetail
+  .apptitle
     display inline-block
     position relative
     left 120px
     max-width calc(100% - 120px)
     min-width calc(100% - 120px)
+    margin-top 1rem
     h2
       font-size 1.4rem
       font-weight 500
@@ -101,9 +99,9 @@ $MQMobileNarrow = 419px
       color lighten($textColor, 10%)
       a
         color #0075bc
-    p
-      color lighten($textColor, 30%)
-    .actionlink
+  .appdetail
+    margin-top 2.5rem
+  .actionlink
       position relative
       bottom 0px
       .launch
@@ -125,4 +123,42 @@ $MQMobileNarrow = 419px
           color #0075bc
           font-size 0.8rem
           line-height 1.2rem
+
+
+@media (max-width: $MQMobile)
+  .home
+    padding-left 1.5rem
+    padding-right 1.5rem
+    .apps
+      flex-direction column
+      margin-top 0rem
+      padding-top 0
+    .hero
+      img
+        max-height 210px
+        margin 2rem auto 1.2rem
+      h1
+        font-size 2rem
+      h1, .description, .action
+        margin 1.2rem auto
+      .description
+        font-size 1.2rem
+      .action-button
+        font-size 1rem
+        padding 0.6rem 1.2rem
+    .apppreview
+      max-width 100%
+      padding 0 0.5rem
+      h2
+        font-size 1.25rem
+
+@media (max-width: $MQMobileNarrow)
+  .home
+    padding-left 1.5rem
+    padding-right 1.5rem
+    .apppreview
+      h2
+        font-size 1.25rem
+      .appdetail
+        margin-top 1.2rem
 </style>
