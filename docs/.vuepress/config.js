@@ -7,7 +7,7 @@ module.exports = {
     lastUpdated: 'Last Updated',
     nav: [
       { text: 'KGrid.org', link: 'https://kgrid.org' },
-      // { text: 'Demo Home', link: '/' },
+      { text: 'KO Collections', link: 'https://kgrid-objects.github.io' },
       // { text: 'apps', link: '/apps/' },
       { text: 'External Links',
               items: [
