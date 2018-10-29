@@ -1,0 +1,21 @@
+{
+  "required":[
+    "inputs","config"
+  ],
+  "properties":{
+    "inputs" : {
+      "type":"object"
+    },
+    "config" : {
+      "type":"object",
+      "properties":{
+        "pagesize":{
+          "type":"integer",
+          "example":5
+        }
+      }
+
+    }
+  }
+
+}

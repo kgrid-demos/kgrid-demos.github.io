@@ -1,0 +1,29 @@
+type: object
+required:
+- recommendation
+- expectancygained
+properties:
+  recommendation:
+    type: object
+    required:
+      - id
+      - shortText
+      - type
+      - grade
+    properties:
+      id:
+        type: string
+        example: 'aspprev-cvdcrc'
+      shortText:
+        type: string
+        example: 'Aspirin Preventive Use'
+      type:
+        type: string
+        example: 'Preventive Medication'
+      grade:
+        type: string
+        example: 'B'
+  expectancygained:
+    type: number
+    format: float
+    example: 0.13
