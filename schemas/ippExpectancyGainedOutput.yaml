@@ -1,0 +1,11 @@
+type: object
+required:
+- expectancygained
+properties:
+  expectancygained:
+    type: object
+    additionalProperties:
+      type: number
+      format: float
+    example:
+      colorectal-cancer: 0.13
