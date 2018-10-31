@@ -45,7 +45,11 @@
 
     <Content custom/>
 
+    <CoreAppIndex />
+
     <AppIndex />
+
+    <SmartAppIndex />
 
     <div
       class="footer"

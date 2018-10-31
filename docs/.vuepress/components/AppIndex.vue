@@ -1,6 +1,7 @@
 
 <template>
 <div class='apps'>
+  <div class='sectiontitle'> <h2>Web Apps</h2></div>
   <div class='apppreview' v-for="post in posts">
     <div class='appicon'>
       <img
@@ -19,9 +20,9 @@
       <p >{{ post.frontmatter.description }}</p>
     </div>
     <div class='actionlink'>
-      <label class='launch' v-if='post.frontmatter.appurl'><a :href="post.frontmatter.appurl">Launch App</a></label>
-      <label class='download' v-if='post.frontmatter.downloadurl'><a :href="post.frontmatter.downloadurl">Download Kit</a></label>
-      <label class='guide' v-if='post.frontmatter.guideurl'><a :href="post.frontmatter.guideurl">Learn More</a></label>
+      <label class='launch' v-if='post.frontmatter.appurl'><a :href="post.frontmatter.appurl" target='_blank'>{{post.frontmatter.applabel}}</a></label>
+      <label class='download' v-if='post.frontmatter.downloadurl'><a :href="post.frontmatter.downloadurl" target='_blank'>{{post.frontmatter.downloadlabel}}</a></label>
+      <label class='guide' v-if='post.frontmatter.guideurl'><a :href="post.frontmatter.guideurl" target='_blank'>Learn More</a></label>
     </div>
   </div>
 </div>
@@ -57,24 +58,41 @@ $MQMobile = 719px
 $MQMobileNarrow = 419px
 .apps
   border-top none
-  padding 2rem 0
+  padding 1.4rem 0
   margin-top 0
   display flex
   flex-wrap wrap
   align-items flex-start
   align-content stretch
   justify-content space-between
+.sectiontitle
+  height 1.8em
+  width 100%
+  margin-bottom 1em
+  padding 0.6em
+  background #eee
+  h2
+    position relative
+    border none
+    color #666
+    margin 0
+    margin-bottom 0.5em
+    small
+      font-size 60%
+      color #777
+.sectiondescription
+  padding 0px 12px
 .apppreview
   flex-grow 1
-  flex-basis 40%
-  max-width 45%
+  flex-basis 44%
+  max-width 44%
   min-height 180px
   border 2px solid $borderColor
-  margin 10px
+  margin 10px 10px
   padding 10px 16px
   position relative
   .appicon
-    width: 100px
+    width 100px
     height 100px
     display inline-block
     position absolute
