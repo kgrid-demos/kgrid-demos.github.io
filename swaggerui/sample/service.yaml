@@ -1,0 +1,58 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: 'USPSTF Recommendation - Aspirin Use to Prevent Cardiovascular Disease and Colorectal Cancer: Preventive Medication'
+  description: 'The USPSTF recommends initiating low-dose aspirin use for the primary prevention of cardiovascular disease and colorectal cancer in adults aged 50 to 59 years who have a 10% or greater 10-year cardiovascular risk, are not at increased risk for bleeding, have a life expectancy of at least 10 years, and are willing to take low-dose aspirin daily for at least 10 years.'
+servers:
+  - url: '/99999/fk4378kc15/v0.0.1/'
+    description: 'Aspirin Use to Prevent Cardiovascular Disease and Colorectal Cancer'
+tags:
+  - name: KO Endpoints
+    description: Aspirin Use to Prevent Cardiovascular Disease and Colorectal Cancer Endpoints
+paths:
+  /lifeexpectancygained:
+    post:
+      tags:
+       - KO Endpoints
+      description: Determine the expected life expectancy gained for aspirin preventive medication.
+      operationId: aspirin
+      requestBody:
+        description: inputs
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/input'
+      responses:
+        '200':
+          description: response
+          content:
+            application/json:
+              schema:
+                $ref: 'https://demo.kgrid.org/schemas/ippExpectancyGainedOutput.yaml'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: 'https://demo.kgrid.org/schemas/basicerror.yaml'
+components:
+  schemas:
+    input:
+      required:
+      - patientID
+      - patientFeature
+      - patientRisk
+      - baseline
+      properties:
+        pateintID:
+          type: string
+          example: 'ipp-patient-001'
+        patientFeature:
+          $ref: 'https://demo.kgrid.org/schemas/patientFeature.yaml'
+        patientRisk:
+          type: object
+          example: {}
+        baseline:
+          type: object
+          example: {}
