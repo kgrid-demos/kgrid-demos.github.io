@@ -1,9 +1,21 @@
 {
   "pateintID": "ipp-patient-001",
-  "patientFeature": [
-    {"featurename":"age","group":"demographics","featuretype":"number","value":55},
+  "patientFeatures": [
+    {"featurename":"age","group":"demographics","featuretype":"number","value":51,"unit":"years"},
     {"featurename":"race","group":"demographics","featuretype":"string","value":"white"},
-    {"featurename":"gender","group":"demographics","featuretype":"string","value":"male"},
-    {"featurename":"height","group":"basic","featuretype":"number","value":172.0}
+    {"featurename":"gender","group":"demographics","featuretype":"string","value":"female"},
+    {"featurename":"height","group":"basic","featuretype":"number","value":64.0,"unit":"inches"},
+	{"featurename":"weight","group":"basic","featuretype":"number","value":180.0,,"unit":"lbs"},
+	{"featurename":"systolic","group":"vitalsigns","featuretype":"number","value":150,"unit":"mmHg"},
+	{"featurename":"diastolic","group":"vitalsigns","featuretype":"number","value":90,"unit":"mmHg"},
+	{"featurename":"totalcholesterol","group":"laboratories","featuretype":"number","value":300,"unit":""},
+	{"featurename":"LDL","group":"laboratories","featuretype":"number","value":250,"unit":""},
+	{"featurename":"triglycerides","group":"laboratories","featuretype":"number","value":0,"unit":""},
+	{"featurename":"HbA1c","group":"laboratories","featuretype":"number","value":9,"unit":""},
+	{"featurename":"antihypertensive","group":"medications","featuretype":"boolean","value":false},
+	{"featurename":"aspirin","group":"medications","featuretype":"boolean","value":false},
+	{"featurename":"currentsmoker","group":"lifestyle","featuretype":"boolean","value":true},
+	{"featurename":"homeless","group":"lifestyle","featuretype":"boolean","value":false},
+	{"featurename":"abdominalAorticAneurysm","group":"familyhistory","featuretype":"boolean","value":false}
   ]
 }
