@@ -1,0 +1,9 @@
+{
+  "pateintID": "ipp-patient-001",
+  "patientFeature": [
+    {"featurename":"age","group":"demographics","featuretype":"number","value":55},
+    {"featurename":"race","group":"demographics","featuretype":"string","value":"white"},
+    {"featurename":"gender","group":"demographics","featuretype":"string","value":"male"},
+    {"featurename":"height","group":"basic","featuretype":"number","value":172.0}
+  ]
+}

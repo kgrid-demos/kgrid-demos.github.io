@@ -1,90 +1,17 @@
 type : object
 required:
-  - demographics
-  - basic
-  - vitalsigns
-  - conditions
-  - medications
+- featurename
+- group
+- featuretype
+- value
 properties:
-  demographics:
-    type: object
-    required:
-      - age
-      - gender
-      - race
-    properties:
-      age:
-        type: integer
-        example: 54
-      gender:
-        type: string
-        example: 'Male'
-      race:
-        type: string
-        example: 'White'
-  basic:
-    type: object
-    required:
-      - height
-      - weight
-    properties:
-      height:
-        type: number
-        format: float
-        example: 57.0
-      weight:
-        type: number
-        format: float
-        example: 157.3
-  vitalsigns:
-    type: object
-    required:
-      - systolic
-      - diastolic
-    properties:
-      systolic:
-        type: number
-        format: float
-        example: 120
-      diastolic:
-        type: number
-        format: float
-        example: 80
-  laboratories:
-    type: object
-    properties:
-      totalcholesterol:
-        type: number
-        format: float
-        example: 180
-      HDL:
-        type: number
-        foramt: float
-        example: 45
-  conditions:
-    type: object
-    properties:
-      diabetes:
-        type: boolean
-        example: false
-      historyofGastrointestinalPain:
-        type: boolean
-        example: false
-  medications:
-    type: object
-    properties:
-      antihypertensives:
-        type: boolean
-        example: false
-      warfarin:
-        type: boolean
-        example: false
-  lifestyle:
-    type: object
-    properties:
-      currentsmoker:
-        type: boolean
-        example: false
-      historyofregualrsmoking:
-        type: boolean
-        example: false
+  featurename:
+    type: string
+  group:
+    type: string
+  featuretype:
+    type: string
+  value:
+    oneOf:
+      - type: string
+      - type: number
