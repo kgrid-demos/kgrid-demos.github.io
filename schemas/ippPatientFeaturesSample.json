@@ -1,6 +1,4 @@
-{
-  "pateintID": "ipp-patient-001",
-  "patientFeatures": [
+[
     {"featurename":"age","group":"demographics","featuretype":"number","value":51,"unit":"years"},
     {"featurename":"race","group":"demographics","featuretype":"string","value":"white"},
     {"featurename":"gender","group":"demographics","featuretype":"string","value":"female"},
@@ -17,5 +15,4 @@
 	{"featurename":"currentsmoker","group":"lifestyle","featuretype":"boolean","value":true},
 	{"featurename":"homeless","group":"lifestyle","featuretype":"boolean","value":false},
 	{"featurename":"abdominalAorticAneurysm","group":"familyhistory","featuretype":"boolean","value":false}
-  ]
-}
+]
