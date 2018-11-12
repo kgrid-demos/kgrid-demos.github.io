@@ -5,7 +5,7 @@
     {"featurename":"race","group":"demographics","featuretype":"string","value":"white"},
     {"featurename":"gender","group":"demographics","featuretype":"string","value":"female"},
     {"featurename":"height","group":"basic","featuretype":"number","value":64.0,"unit":"inches"},
-	{"featurename":"weight","group":"basic","featuretype":"number","value":180.0,,"unit":"lbs"},
+	{"featurename":"weight","group":"basic","featuretype":"number","value":180.0,"unit":"lbs"},
 	{"featurename":"systolic","group":"vitalsigns","featuretype":"number","value":150,"unit":"mmHg"},
 	{"featurename":"diastolic","group":"vitalsigns","featuretype":"number","value":90,"unit":"mmHg"},
 	{"featurename":"totalcholesterol","group":"laboratories","featuretype":"number","value":300,"unit":""},
