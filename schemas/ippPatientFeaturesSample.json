@@ -1,5 +1,5 @@
 {
-  "pateintID": "ipp-patient-001",
+  "patientID": "ipp-patient-001",
   "patientFeatures": [
     {"featurename":"age","group":"demographics","featuretype":"number","value":51,"unit":"years"},
     {"featurename":"race","group":"demographics","featuretype":"string","value":"white"},
