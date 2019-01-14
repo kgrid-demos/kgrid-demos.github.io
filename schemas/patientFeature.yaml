@@ -1,15 +1,15 @@
 type : object
 required:
-- featurename
+- name
 - group
-- featuretype
+- type
 - value
 properties:
-  featurename:
+  name:
     type: string
   group:
     type: string
-  featuretype:
+  type:
     type: string
   value:
     oneOf:
