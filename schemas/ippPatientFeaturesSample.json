@@ -5,17 +5,26 @@
     {"name":"race","group":"demographics","type":"string","value":"white"},
     {"name":"gender","group":"demographics","type":"string","value":"female"},
     {"name":"height","group":"basic","type":"number","value":64.0,"unit":"inches"},
-	{"name":"weight","group":"basic","type":"number","value":180.0,"unit":"lbs"},
-	{"name":"systolic","group":"vitalsigns","type":"number","value":150,"unit":"mmHg"},
-	{"name":"diastolic","group":"vitalsigns","type":"number","value":90,"unit":"mmHg"},
-	{"name":"totalcholesterol","group":"laboratories","type":"number","value":300,"unit":""},
-	{"name":"LDL","group":"laboratories","type":"number","value":250,"unit":""},
-	{"name":"triglycerides","group":"laboratories","type":"number","value":0,"unit":""},
-	{"name":"HbA1c","group":"laboratories","type":"number","value":9,"unit":""},
-	{"name":"antihypertensive","group":"medications","type":"boolean","value":false},
-	{"name":"aspirin","group":"medications","type":"boolean","value":false},
-	{"name":"currentsmoker","group":"lifestyle","type":"boolean","value":true},
-	{"name":"homeless","group":"lifestyle","type":"boolean","value":false},
-	{"name":"abdominalAorticAneurysm","group":"familyhistory","type":"boolean","value":false}
-  ]
+  	{"name":"weight","group":"basic","type":"number","value":180.0,"unit":"lbs"},
+  	{"name":"systolic","group":"vitalsigns","type":"number","value":150,"unit":"mmHg"},
+  	{"name":"diastolic","group":"vitalsigns","type":"number","value":90,"unit":"mmHg"},
+  	{"name":"totalcholesterol","group":"laboratories","type":"number","value":300,"unit":""},
+  	{"name":"LDL","group":"laboratories","type":"number","value":250,"unit":""},
+  	{"name":"triglycerides","group":"laboratories","type":"number","value":0,"unit":""},
+  	{"name":"HbA1c","group":"laboratories","type":"number","value":9,"unit":""},
+  	{"name":"antihypertensive","group":"medications","type":"boolean","value":false},
+  	{"name":"aspirin","group":"medications","type":"boolean","value":false},
+  	{"name":"currentsmoker","group":"lifestyle","type":"boolean","value":true},
+  	{"name":"homeless","group":"lifestyle","type":"boolean","value":false},
+  	{"name":"abdominalAorticAneurysm","group":"familyhistory","type":"boolean","value":false}
+  ],
+  "settings": {
+    "id":"baseline",
+    "name":"Total",
+    "screening":false,
+    "timeline":0
+  },
+  "options":{
+    "includeintermediateresult":true
+  }
 }
