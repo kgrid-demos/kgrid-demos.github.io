@@ -3,7 +3,7 @@
   "patientFeatures": [
     {"name":"age","group":"demographics","type":"number","value":51,"unit":"years"},
     {"name":"race","group":"demographics","type":"string","value":"white"},
-    {"name":"gender","group":"demographics","type":"string","value":"female"},
+    {"name":"gender","group":"demographics","type":"string","value":"female"}
   ],
   "settings": {
     "name":"baseline",
