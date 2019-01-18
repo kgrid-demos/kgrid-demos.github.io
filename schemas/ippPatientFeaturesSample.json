@@ -19,8 +19,8 @@
   	{"name":"abdominalAorticAneurysm","group":"familyhistory","type":"boolean","value":false}
   ],
   "settings": {
-    "id":"baseline",
-    "name":"Total",
+    "name":"baseline",
+    "type":"Total",
     "screening":false,
     "timeline":0
   },
