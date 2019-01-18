@@ -1,9 +1,9 @@
 {
   "patientID": "ipp-patient-001",
   "patientFeatures": [
-    {"name":"age","group":"demographics","type":"number","value":51,"unit":"years"},
-    {"name":"race","group":"demographics","type":"string","value":"white"},
-    {"name":"gender","group":"demographics","type":"string","value":"female"}
+    {"name":"age","group":"demographics","type":"number","label":"Age","value":51,"unit":"years"},
+    {"name":"race","group":"demographics","type":"string","label":"Race","value":"white"},
+    {"name":"gender","group":"demographics","type":"string","label":"Gender","value":"female"}
   ],
   "settings": {
     "name":"baseline",
