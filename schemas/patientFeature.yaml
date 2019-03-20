@@ -104,7 +104,7 @@ properties:
       type: integer    
     prison: 
       type: boolean    
-   auditc1: 
+    auditc1:
       type: string
       enum:
          - "Never"
