@@ -47,5 +47,6 @@ properties:
     diabetes: 
       type: string 
       enum:
-         - Yes
-         - No
+         - "Yes"
+         - "No"
+         - "Don't Know"
