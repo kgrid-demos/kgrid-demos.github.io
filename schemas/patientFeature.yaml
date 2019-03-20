@@ -50,3 +50,264 @@ properties:
          - "Yes"
          - "No"
          - "Don't Know"
+ hxglucose: 
+      type: boolean    
+    colitis: 
+      type: boolean    
+    hx_aaa: 
+      type: boolean    
+    priorgipain: 
+      type: boolean    
+    priorgiulcer: 
+      type: boolean    
+    chestrx_childhood: 
+      type: boolean    
+    hepatitis: 
+      type: boolean    
+    hx_std: 
+      type: boolean    
+    hx_tb: 
+      type: boolean    
+    hx_unknownillness: 
+      type: boolean    
+    hx_weakimmune: 
+      type: boolean    
+    hiv: 
+      type: string 
+      enum:
+         - "Yes"
+         - "No"
+         - "Don't Know"
+    hiv_symptoms: 
+      type: boolean    
+    antihypertensive: 
+      type: boolean    
+    aspirin: 
+      type: boolean    
+    statins: 
+      type: boolean    
+    warfarin: 
+      type: boolean    
+    nsaids: 
+      type: boolean    
+    meds_bcapreventive: 
+      type: boolean    
+    smoker: 
+      type: boolean    
+    smoking_agebegan: 
+      type: integer    
+    smoking_packsday: 
+      type: integer    
+    history_smoker: 
+      type: boolean    
+    years_since_quit: 
+      type: integer    
+    prison: 
+      type: boolean    
+    auditc1: 
+      type: string
+      enum:
+         - "Never"
+         - "1"
+         - "<=Monthly"
+         - "2-4x per month"
+         - "2-3x per week"
+         - ">=4x per week"
+    auditc2: 
+      type: string
+       enum:
+         - "0"
+         - "0-2"
+         - "3-4"
+         - "5-6"
+         - "7-9"
+         - ">=10"
+    auditc3: 
+      type: string
+      enum:
+         - "0"
+         - "Never"
+         - "<Monthly"
+         - "Monthly"
+         - "Weekly"
+         - "Daily or almost daily"
+    alcoholdrinks: 
+      type: integer    
+    alcohol_harmful_input: 
+      type: integer    
+    alcohol_dependent_input: 
+      type: integer    
+    sdds1: 
+      type: boolean    
+    sdds2: 
+      type: boolean    
+    depression_intake: 
+      type: boolean    
+    depression_mdd: 
+      type: boolean    
+    regular_colonoscopy: 
+      type: boolean    
+    hx_screenaaa: 
+      type: boolean    
+    famiy_aaa: 
+      type: boolean    
+    firstdegree_colorectal: 
+      type: string 
+      enum:
+         - "0 or Don't Know"
+         - "1 Diagnosed Age <=49y"
+         - "1 Diagnosed Age 50-59y"
+         - "1 Diagnosed Age >=60y"
+         - ">=2"
+    fap_hnpcc: 
+      type: boolean    
+    sti_learned: 
+      type: boolean    
+    tested_syphilis: 
+      type: boolean    
+    sex_msm: 
+      type: boolean    
+    ivdrugs: 
+      type: boolean    
+    sex_unprotecteddirect: 
+      type: boolean    
+    sex_unprotectedindirect: 
+      type: boolean    
+    sex_new: 
+      type: boolean    
+    sex_multiple: 
+      type: boolean    
+    sex_condom: 
+      type: boolean    
+    sex_drugsmoney: 
+      type: boolean    
+    menarche: 
+      type: integer    
+    menopause: 
+      type: integer    
+    parity: 
+      type: integer    
+    agefirstbirth: 
+      type: integer    
+    agefirstintercourse: 
+      type: integer    
+    sexualpartners: 
+      type: integer    
+    oralcontraception: 
+      type: boolean    
+    hrt: 
+      type: boolean    
+    hx_bca: 
+      type: boolean    
+    regular_mammogram: 
+      type: boolean    
+    mastectomy_double: 
+      type: boolean    
+    regular_pap: 
+      type: string 
+      enum:
+         - "Yes"
+         - "No"
+         - "Don't Know"     
+    normal3_pap: 
+      type: string
+      enum:
+         - "Yes"
+         - "No"
+         - "Don't Know"    
+    abnormal_pap: 
+      type: string 
+      enum:
+         - "Yes"
+         - "No"
+         - "Don't Know"      
+    cervix: 
+      type: boolean    
+    ashkenazi: 
+      type: boolean    
+    firstdegree_breast: 
+      type: string 
+      enum:
+         - "0 or Don't Know"
+         - "1"
+         - "2"    
+         - ">=3"
+    firstdegree_breast50: 
+      type: boolean    
+    firstdegree_breastbilateral: 
+      type: boolean    
+    seconddegree_breastany: 
+      type: string 
+      enum:
+         - "0 or Don't Know"
+         - "1"
+         - "2"    
+         - ">=3"
+    seconddegree_breastsame: 
+      type: string 
+      enum:
+         - "0 or Don't Know"
+         - "1"
+         - ">=2"
+    male_breast: 
+      type: boolean    
+    firstdegree_ovarian: 
+      type: string   
+      enum:
+         - "0 or Don't Know"
+         - "1"
+         - ">=2"
+    seconddegree_ovarianany: 
+      type: string   
+      enum:
+         - "0 or Don't Know"
+         - "1"
+         - ">=2"     
+    seconddegree_ovariansame: 
+      type: string
+      enum:
+         - "0 or Don't Know"
+         - "1"
+         - ">=2"     
+    breastovarian: 
+      type: boolean    
+    brca1brca2: 
+      type: string   
+      enum:
+         - "Yes"
+         - "No"
+         - "Don't Know"  
+    osteoporosis: 
+      type: string
+      enum:
+         - "Yes"
+         - "No"
+         - "Don't Know"  
+    ra: 
+      type: boolean    
+    hxfracture: 
+      type: boolean    
+    parentfracture: 
+      type: boolean    
+    hxglucocorticoids: 
+      type: boolean    
+    osteogenesis: 
+      type: boolean    
+    hyperthyroid: 
+      type: boolean    
+    malnutrition: 
+      type: boolean    
+    malabsorption: 
+      type: boolean    
+    hypogonadism: 
+      type: boolean    
+    liver: 
+      type: boolean    
+    tested_gonorrhea: 
+      type: boolean    
+    tested_chlamydiaƒ: 
+      type: boolean  
+    bmi:
+      type: boolean
+    packyears:
+      type: boolean  
