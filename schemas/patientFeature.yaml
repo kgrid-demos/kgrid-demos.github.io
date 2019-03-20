@@ -50,7 +50,7 @@ properties:
          - "Yes"
          - "No"
          - "Don't Know"
- hxglucose: 
+    hxglucose: 
       type: boolean    
     colitis: 
       type: boolean    
