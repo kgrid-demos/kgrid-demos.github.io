@@ -10,6 +10,10 @@ properties:
          - Others
     gender: 
       type: string    
+      enum:
+         - Male
+         - Female
+         - Others
     height: 
       type: integer    
     weight: 
@@ -41,7 +45,11 @@ properties:
     diabetestype1: 
       type: boolean    
     diabetes: 
-      type: string    
+      type: string 
+      enum:
+         - Yes
+         - No
+         - Don't Know
     hxglucose: 
       type: boolean    
     colitis: 
@@ -65,7 +73,11 @@ properties:
     hx_weakimmune: 
       type: boolean    
     hiv: 
-      type: string    
+      type: string 
+      enum:
+         - Yes
+         - No
+         - Don't Know
     hiv_symptoms: 
       type: boolean    
     antihypertensive: 
@@ -93,11 +105,32 @@ properties:
     prison: 
       type: boolean    
     auditc1: 
-      type: string    
+      type: string
+      enum:
+         - Never
+         - 1
+         - <=Monthly
+         - 2-4x per month
+         - 2-3x per week
+         - >=4x per week
     auditc2: 
-      type: string    
+      type: string
+       enum:
+         - 0
+         - 0-2
+         - 3-4
+         - 5-6
+         - 7-9
+         - >=10
     auditc3: 
-      type: string    
+      type: string
+      enum:
+         - 0
+         - Never
+         - <Monthly
+         - Monthly
+         - Weekly
+         - Daily or almost daily
     alcoholdrinks: 
       type: integer    
     alcohol_harmful_input: 
@@ -119,7 +152,13 @@ properties:
     famiy_aaa: 
       type: boolean    
     firstdegree_colorectal: 
-      type: string    
+      type: string 
+      enum:
+         - 0 or Don't Know
+         - 1 Diagnosed Age <=49y
+         - 1 Diagnosed Age 50-59y
+         - 1 Diagnosed Age >=60y
+         - >=2
     fap_hnpcc: 
       type: boolean    
     sti_learned: 
@@ -165,39 +204,85 @@ properties:
     mastectomy_double: 
       type: boolean    
     regular_pap: 
-      type: string    
+      type: string 
+      enum:
+         - Yes
+         - No
+         - Don't Know      
     normal3_pap: 
-      type: string    
+      type: string
+      enum:
+         - Yes
+         - No
+         - Don't Know      
     abnormal_pap: 
-      type: string    
+      type: string 
+      enum:
+         - Yes
+         - No
+         - Don't Know      
     cervix: 
       type: boolean    
     ashkenazi: 
       type: boolean    
     firstdegree_breast: 
-      type: string    
+      type: string 
+      enum:
+         - 0 or Don't Know
+         - 1
+         - 2    
+         - >=3
     firstdegree_breast50: 
       type: boolean    
     firstdegree_breastbilateral: 
       type: boolean    
     seconddegree_breastany: 
-      type: string    
+      type: string 
+            enum:
+         - 0 or Don't Know
+         - 1
+         - 2    
+         - >=3
     seconddegree_breastsame: 
-      type: string    
+      type: string 
+      enum:
+         - 0 or Don't Know
+         - 1
+         - >=2
     male_breast: 
       type: boolean    
     firstdegree_ovarian: 
-      type: string    
+      type: string   
+      enum:
+         - 0 or Don't Know
+         - 1
+         - >=2
     seconddegree_ovarianany: 
-      type: string    
+      type: string   
+      enum:
+         - 0 or Don't Know
+         - 1
+         - >=2      
     seconddegree_ovariansame: 
-      type: string    
+      type: string
+      enum:
+         - 0 or Don't Know
+         - 1
+         - >=2      
     breastovarian: 
       type: boolean    
     brca1brca2: 
-      type: string    
+      type: string   
+      enum:
+         - Yes
+         - No
+         - Don't Know  
     osteoporosis: 
-      type: string    
+      type: string
+      enum:
+         - Yes
+         - No
+         - Don't Know  
     ra: 
       type: boolean    
     hxfracture: 
