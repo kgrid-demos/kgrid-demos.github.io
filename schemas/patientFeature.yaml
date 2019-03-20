@@ -1,17 +1,220 @@
 type : object
-required:
-- name
-- group
-- type
-- value
 properties:
-  name:
-    type: string
-  group:
-    type: string
-  type:
-    type: string
-  value:
-    oneOf:
-      - type: string
-      - type: number
+    age: 
+      type: string    
+    race: 
+      type: string    
+    gender: 
+      type: string    
+    height: 
+      type: string    
+    weight: 
+      type: string    
+    systolic: 
+      type: string    
+    diastolic: 
+      type: string    
+    totalcholesterol: 
+      type: string    
+    HDL: 
+      type: string    
+    LDL: 
+      type: string    
+    triglycerides: 
+      type: string    
+    a1c: 
+      type: string    
+    cvd: 
+      type: string    
+    cad: 
+      type: string    
+    afib: 
+      type: string    
+    lvh: 
+      type: string    
+    cerebrovascular: 
+      type: string    
+    diabetestype1: 
+      type: string    
+    diabetes: 
+      type: string    
+    hxglucose: 
+      type: string    
+    colitis: 
+      type: string    
+    hx_aaa: 
+      type: string    
+    priorgipain: 
+      type: string    
+    priorgiulcer: 
+      type: string    
+    chestrx_childhood: 
+      type: string    
+    hepatitis: 
+      type: string    
+    hx_std: 
+      type: string    
+    hx_tb: 
+      type: string    
+    hx_unknownillness: 
+      type: string    
+    hx_weakimmune: 
+      type: string    
+    hiv: 
+      type: string    
+    hiv_symptoms: 
+      type: string    
+    antihypertensive: 
+      type: string    
+    aspirin: 
+      type: string    
+    statins: 
+      type: string    
+    warfarin: 
+      type: string    
+    nsaids: 
+      type: string    
+    meds_bcapreventive: 
+      type: string    
+    smoker: 
+      type: string    
+    smoking_agebegan: 
+      type: string    
+    smoking_packsday: 
+      type: string    
+    history_smoker: 
+      type: string    
+    years_since_quit: 
+      type: string    
+    prison: 
+      type: string    
+    auditc1: 
+      type: string    
+    auditc2: 
+      type: string    
+    auditc3: 
+      type: string    
+    alcoholdrinks: 
+      type: string    
+    alcohol_harmful_input: 
+      type: string    
+    alcohol_dependent_input: 
+      type: string    
+    sdds1: 
+      type: string    
+    sdds2: 
+      type: string    
+    depression_intake: 
+      type: string    
+    depression_mdd: 
+      type: string    
+    regular_colonoscopy: 
+      type: string    
+    hx_screenaaa: 
+      type: string    
+    famiy_aaa: 
+      type: string    
+    firstdegree_colorectal: 
+      type: string    
+    fap_hnpcc: 
+      type: string    
+    sti_learned: 
+      type: string    
+    tested_syphilis: 
+      type: string    
+    sex_msm: 
+      type: string    
+    ivdrugs: 
+      type: string    
+    sex_unprotecteddirect: 
+      type: string    
+    sex_unprotectedindirect: 
+      type: string    
+    sex_new: 
+      type: string    
+    sex_multiple: 
+      type: string    
+    sex_condom: 
+      type: string    
+    sex_drugsmoney: 
+      type: string    
+    menarche: 
+      type: string    
+    menopause: 
+      type: string    
+    parity: 
+      type: string    
+    agefirstbirth: 
+      type: string    
+    agefirstintercourse: 
+      type: string    
+    sexualpartners: 
+      type: string    
+    oralcontraception: 
+      type: string    
+    hrt: 
+      type: string    
+    hx_bca: 
+      type: string    
+    regular_mammogram: 
+      type: string    
+    mastectomy_double: 
+      type: string    
+    regular_pap: 
+      type: string    
+    normal3_pap: 
+      type: string    
+    abnormal_pap: 
+      type: string    
+    cervix: 
+      type: string    
+    ashkenazi: 
+      type: string    
+    firstdegree_breast: 
+      type: string    
+    firstdegree_breast50: 
+      type: string    
+    firstdegree_breastbilateral: 
+      type: string    
+    seconddegree_breastany: 
+      type: string    
+    seconddegree_breastsame: 
+      type: string    
+    male_breast: 
+      type: string    
+    firstdegree_ovarian: 
+      type: string    
+    seconddegree_ovarianany: 
+      type: string    
+    seconddegree_ovariansame: 
+      type: string    
+    breastovarian: 
+      type: string    
+    brca1brca2: 
+      type: string    
+    osteoporosis: 
+      type: string    
+    ra: 
+      type: string    
+    hxfracture: 
+      type: string    
+    parentfracture: 
+      type: string    
+    hxglucocorticoids: 
+      type: string    
+    osteogenesis: 
+      type: string    
+    hyperthyroid: 
+      type: string    
+    malnutrition: 
+      type: string    
+    malabsorption: 
+      type: string    
+    hypogonadism: 
+      type: string    
+    liver: 
+      type: string    
+    tested_gonorrhea: 
+      type: string    
+    tested_chlamydiaƒ: 
+      type: string    
