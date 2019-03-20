@@ -3,7 +3,11 @@ properties:
     age: 
       type: integer    
     race: 
-      type: string    
+      type: string  
+      enum:
+         - White
+         - Black
+         - Others
     gender: 
       type: string    
     height: 
