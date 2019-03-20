@@ -1,93 +1,93 @@
 type : object
 properties:
     age: 
-      type: string    
+      type: integer    
     race: 
       type: string    
     gender: 
       type: string    
     height: 
-      type: string    
+      type: integer    
     weight: 
-      type: string    
+      type: integer    
     systolic: 
-      type: string    
+      type: integer    
     diastolic: 
-      type: string    
+      type: integer    
     totalcholesterol: 
-      type: string    
+      type: integer    
     HDL: 
-      type: string    
+      type: integer    
     LDL: 
-      type: string    
+      type: integer    
     triglycerides: 
-      type: string    
+      type: integer    
     a1c: 
-      type: string    
+      type: integer    
     cvd: 
-      type: string    
+      type: boolean    
     cad: 
-      type: string    
+      type: boolean    
     afib: 
-      type: string    
+      type: boolean    
     lvh: 
-      type: string    
+      type: boolean    
     cerebrovascular: 
-      type: string    
+      type: boolean    
     diabetestype1: 
-      type: string    
+      type: boolean    
     diabetes: 
       type: string    
     hxglucose: 
-      type: string    
+      type: boolean    
     colitis: 
-      type: string    
+      type: boolean    
     hx_aaa: 
-      type: string    
+      type: boolean    
     priorgipain: 
-      type: string    
+      type: boolean    
     priorgiulcer: 
-      type: string    
+      type: boolean    
     chestrx_childhood: 
-      type: string    
+      type: boolean    
     hepatitis: 
-      type: string    
+      type: boolean    
     hx_std: 
-      type: string    
+      type: boolean    
     hx_tb: 
-      type: string    
+      type: boolean    
     hx_unknownillness: 
-      type: string    
+      type: boolean    
     hx_weakimmune: 
-      type: string    
+      type: boolean    
     hiv: 
       type: string    
     hiv_symptoms: 
-      type: string    
+      type: boolean    
     antihypertensive: 
-      type: string    
+      type: boolean    
     aspirin: 
-      type: string    
+      type: boolean    
     statins: 
-      type: string    
+      type: boolean    
     warfarin: 
-      type: string    
+      type: boolean    
     nsaids: 
-      type: string    
+      type: boolean    
     meds_bcapreventive: 
-      type: string    
+      type: boolean    
     smoker: 
-      type: string    
+      type: boolean    
     smoking_agebegan: 
-      type: string    
+      type: integer    
     smoking_packsday: 
-      type: string    
+      type: integer    
     history_smoker: 
-      type: string    
+      type: boolean    
     years_since_quit: 
-      type: string    
+      type: integer    
     prison: 
-      type: string    
+      type: boolean    
     auditc1: 
       type: string    
     auditc2: 
@@ -95,71 +95,71 @@ properties:
     auditc3: 
       type: string    
     alcoholdrinks: 
-      type: string    
+      type: integer    
     alcohol_harmful_input: 
-      type: string    
+      type: integer    
     alcohol_dependent_input: 
-      type: string    
+      type: integer    
     sdds1: 
-      type: string    
+      type: boolean    
     sdds2: 
-      type: string    
+      type: boolean    
     depression_intake: 
-      type: string    
+      type: boolean    
     depression_mdd: 
-      type: string    
+      type: boolean    
     regular_colonoscopy: 
-      type: string    
+      type: boolean    
     hx_screenaaa: 
-      type: string    
+      type: boolean    
     famiy_aaa: 
-      type: string    
+      type: boolean    
     firstdegree_colorectal: 
       type: string    
     fap_hnpcc: 
-      type: string    
+      type: boolean    
     sti_learned: 
-      type: string    
+      type: boolean    
     tested_syphilis: 
-      type: string    
+      type: boolean    
     sex_msm: 
-      type: string    
+      type: boolean    
     ivdrugs: 
-      type: string    
+      type: boolean    
     sex_unprotecteddirect: 
-      type: string    
+      type: boolean    
     sex_unprotectedindirect: 
-      type: string    
+      type: boolean    
     sex_new: 
-      type: string    
+      type: boolean    
     sex_multiple: 
-      type: string    
+      type: boolean    
     sex_condom: 
-      type: string    
+      type: boolean    
     sex_drugsmoney: 
-      type: string    
+      type: boolean    
     menarche: 
-      type: string    
+      type: integer    
     menopause: 
-      type: string    
+      type: integer    
     parity: 
-      type: string    
+      type: integer    
     agefirstbirth: 
-      type: string    
+      type: integer    
     agefirstintercourse: 
-      type: string    
+      type: integer    
     sexualpartners: 
-      type: string    
+      type: integer    
     oralcontraception: 
-      type: string    
+      type: boolean    
     hrt: 
-      type: string    
+      type: boolean    
     hx_bca: 
-      type: string    
+      type: boolean    
     regular_mammogram: 
-      type: string    
+      type: boolean    
     mastectomy_double: 
-      type: string    
+      type: boolean    
     regular_pap: 
       type: string    
     normal3_pap: 
@@ -167,21 +167,21 @@ properties:
     abnormal_pap: 
       type: string    
     cervix: 
-      type: string    
+      type: boolean    
     ashkenazi: 
-      type: string    
+      type: boolean    
     firstdegree_breast: 
       type: string    
     firstdegree_breast50: 
-      type: string    
+      type: boolean    
     firstdegree_breastbilateral: 
-      type: string    
+      type: boolean    
     seconddegree_breastany: 
       type: string    
     seconddegree_breastsame: 
       type: string    
     male_breast: 
-      type: string    
+      type: boolean    
     firstdegree_ovarian: 
       type: string    
     seconddegree_ovarianany: 
@@ -189,32 +189,36 @@ properties:
     seconddegree_ovariansame: 
       type: string    
     breastovarian: 
-      type: string    
+      type: boolean    
     brca1brca2: 
       type: string    
     osteoporosis: 
       type: string    
     ra: 
-      type: string    
+      type: boolean    
     hxfracture: 
-      type: string    
+      type: boolean    
     parentfracture: 
-      type: string    
+      type: boolean    
     hxglucocorticoids: 
-      type: string    
+      type: boolean    
     osteogenesis: 
-      type: string    
+      type: boolean    
     hyperthyroid: 
-      type: string    
+      type: boolean    
     malnutrition: 
-      type: string    
+      type: boolean    
     malabsorption: 
-      type: string    
+      type: boolean    
     hypogonadism: 
-      type: string    
+      type: boolean    
     liver: 
-      type: string    
+      type: boolean    
     tested_gonorrhea: 
-      type: string    
+      type: boolean    
     tested_chlamydiaƒ: 
-      type: string    
+      type: boolean  
+    bmi:
+      type: boolean
+    packyears:
+      type: boolean  
