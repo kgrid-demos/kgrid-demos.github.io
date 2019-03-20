@@ -112,7 +112,7 @@ properties:
          - <=Monthly
          - 2-4x per month
          - 2-3x per week
-         - >=4x per week
+         - '>=4x per week'
     auditc2: 
       type: string
        enum:
@@ -121,7 +121,7 @@ properties:
          - 3-4
          - 5-6
          - 7-9
-         - >=10
+         - '>=10'
     auditc3: 
       type: string
       enum:
@@ -158,7 +158,7 @@ properties:
          - 1 Diagnosed Age <=49y
          - 1 Diagnosed Age 50-59y
          - 1 Diagnosed Age >=60y
-         - >=2
+         - '>=2'
     fap_hnpcc: 
       type: boolean    
     sti_learned: 
@@ -231,7 +231,7 @@ properties:
          - 0 or Don't Know
          - 1
          - 2    
-         - >=3
+         - '>=3'
     firstdegree_breast50: 
       type: boolean    
     firstdegree_breastbilateral: 
@@ -242,13 +242,13 @@ properties:
          - 0 or Don't Know
          - 1
          - 2    
-         - >=3
+         - '>=3'
     seconddegree_breastsame: 
       type: string 
       enum:
          - 0 or Don't Know
          - 1
-         - >=2
+         - '>=2'
     male_breast: 
       type: boolean    
     firstdegree_ovarian: 
@@ -256,19 +256,19 @@ properties:
       enum:
          - 0 or Don't Know
          - 1
-         - >=2
+         - '>=2'
     seconddegree_ovarianany: 
       type: string   
       enum:
          - 0 or Don't Know
          - 1
-         - >=2      
+         - '>=2 '     
     seconddegree_ovariansame: 
       type: string
       enum:
          - 0 or Don't Know
          - 1
-         - >=2      
+         - '>=2'      
     breastovarian: 
       type: boolean    
     brca1brca2: 
