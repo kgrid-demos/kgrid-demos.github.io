@@ -1,7 +1,7 @@
 ---
 title: IPP Demo
 date: 2018-10-28
-fa: list-ol
+fa: address-card
 description:
     IPP Demo demonstrates the prioritization of USPSTF Recommendations.
 guideurl: https://kgrid-objects.github.io/ipp-collection
