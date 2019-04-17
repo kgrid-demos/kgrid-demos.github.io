@@ -5,6 +5,6 @@ fa: address-card
 description:
     IPP Demo demonstrates the prioritization of USPSTF Recommendations.
 guideurl: https://kgrid-objects.github.io/ipp-collection
-appurl: https://kgrid-objects.github.io/ipp-collection/web/#/demo2
+appurl: https://kgrid-objects.github.io/ipp-collection/web/#/
 applabel: Open App
 ---
