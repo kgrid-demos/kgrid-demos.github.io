@@ -46,7 +46,7 @@
     },
     {
       "host":"https://kgrid-activator.herokuapp.com",
-      "shelf":"/",
+      "shelf":"/kos",
       "type":"Activator",
       "name":"Chipmunk"
     },
