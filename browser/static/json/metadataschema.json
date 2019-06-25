@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 8,
+          "maxLength": 80,
+          "title": "TITLE",
+          "attrs": {
+            "type":"text",
+            "placeholder": "Knowledge Object Title",
+            "title": "Please enter the title for this knowledge object"
+          }
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 300,
+          "title": "DESCRIPTION",
+          "attrs": {
+            "type": "textarea",
+            "placeholder": "What is this knowledge object about?"
+          }
+        },
+        "keywords": {
+          "type": "string",
+          "minLength": 8,
+          "maxLength": 80,
+          "title": "KEYWORDS",
+          "attrs": {
+            "type":"text",
+            "placeholder": "KEYWORDS",
+            "title": "Please enter some keywords for this knowledge object"
+          }
+        },
+        "owners": {
+          "type": "string",
+          "minLength": 8,
+          "maxLength": 80,
+          "title": "OWNERS",
+          "attrs": {
+            "type":"text",
+            "placeholder": "Knowledge Object Owners",
+            "title": "Please enter the owners of this knowledge object"
+          }
+        },
+        "contributors": {
+          "type": "string",
+          "minLength": 8,
+          "maxLength": 80,
+          "title": "CONTRIBUTORS",
+          "attrs": {
+            "type":"text",
+            "placeholder": "Knowledge Object Contributors",
+            "title": "Please enter the contributors of this knowledge object"
+          }
+        },
+        "hasImplementation": {
+          "type": "string",
+          "title": "IMPLEMENTATION",
+          "attrs": {
+            "type":"text",
+            "placeholder": "Knowledge Object Implementation",
+            "title": "Please enter the path for implementations"
+          }
+        },
+        "hasServiceSpecification": {
+          "type": "string",
+          "title": "SERVICE",
+          "attrs": {
+            "type":"text",
+            "placeholder": "Knowledge Object Service Description",
+            "title": "Please enter the path for service description file"
+          }
+        },
+        "hasDeploymentSpecification": {
+          "type": "string",
+          "title": "DEPLOYMENT",
+          "attrs": {
+            "type":"text",
+            "placeholder": "Knowledge Object Deployment Description",
+            "title": "Please enter the path for deployment description file"
+          }
+        },
+        "hasPayload": {
+          "type": "string",
+          "title": "PAYLOAD",
+          "attrs": {
+            "type":"text",
+            "placeholder": "Knowledge Object Payload",
+            "title": "Please enter the path for payload file"
+          }
+        },
+        "license": {
+          "type": "object",
+          "title": "LICENSE",
+          "attrs": {
+            "type":"linked"
+          },
+          "properties": {
+            "licenseName": {
+              "type": "string",
+              "title":"License Title"
+            },
+            "licenseLink": {
+              "type": "string",
+              "title":"License link"
+            }
+          }
+        },
+        "citations": {
+          "type": "array",
+          "items":
+            {
+              "type": "string",
+              "title":"citation",
+              "attrs": {
+                "type":"text",
+                "placeholder": "Knowledge Object Title",
+                "title": "Please enter the title for this knowledge object"
+              }
+            }
+        }
+      }
+    },
+    "logData":{
+      "type": "object",
+      "properties": {
+        "content": {
+          "type": "string",
+          "title": "CONTENT",
+          "attrs": {
+            "type":"text",
+            "placeholder": "Knowledge Object Contributors",
+            "title": "Please enter the contributors of this knowledge object"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "metadata"
+  ]
+}
