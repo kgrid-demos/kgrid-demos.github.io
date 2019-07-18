@@ -4,7 +4,7 @@
   "servers":[
     {
       "host":".",
-      "shelf":"/shelf",
+      "shelf":"/kos",
       "type":"Library",
       "name":""
     },
@@ -58,19 +58,19 @@
     },
     {
       "host":"http://localhost:8080",
-      "shelf":"/",
+      "shelf":"/kos",
       "type":"Activator",
       "name":"Localhost:8080"
     },
     {
       "host":"http://localhost:8080",
-      "shelf":"/shelf",
+      "shelf":"/kos",
       "type":"Library",
       "name":"Localhost:8080"
     },
     {
       "host":".",
-      "shelf":"/",
+      "shelf":"/kos",
       "type":"Activator",
       "name":""
     }
