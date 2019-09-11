@@ -1,0 +1,52 @@
+patientwithprescriptionlist:
+  type: object
+  properties:
+    id:
+      type: string
+      example: PA-01011
+    prescriptions:
+      type: array
+      items:
+        type: object
+        properties:
+          rxnorm:
+            type: string
+            example: '313782'
+          medicationname:
+            type: string
+            example: ACETAMINOPHEN 325 MG TABLET
+          genericname:
+            type: string
+            example: ACETAMINOPHEN
+          strength:
+            type: object
+            properties:
+              value:
+                type: number
+                example: 325
+              unit:
+                type: string
+                example: mg
+          form:
+            type: string
+            example: Tablet
+          route:
+            type: string
+            example: Oral
+          sig:
+            type: string
+            example: 650 MG EVERY 6 HOURS
+          dosage:
+            type: array
+            items:
+              type: object
+              properties:
+                value:
+                  type: string
+                  example: '650'
+                unit:
+                  type: string
+                  example: MG
+                frequency:
+                  type: string
+                  example: EVERY 6 HOURS
