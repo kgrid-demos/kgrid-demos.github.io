@@ -19,14 +19,8 @@ patientwithprescriptionlist:
             type: string
             example: ACETAMINOPHEN
           strength:
-            type: object
-            properties:
-              value:
-                type: number
-                example: 325
-              unit:
-                type: string
-                example: mg
+            type: string
+            example: 325 mg
           form:
             type: string
             example: Tablet
@@ -36,17 +30,4 @@ patientwithprescriptionlist:
           sig:
             type: string
             example: 650 MG EVERY 6 HOURS
-          dosage:
-            type: array
-            items:
-              type: object
-              properties:
-                value:
-                  type: string
-                  example: '650'
-                unit:
-                  type: string
-                  example: MG
-                frequency:
-                  type: string
-                  example: EVERY 6 HOURS
+            
