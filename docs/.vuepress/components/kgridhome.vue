@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <Navbar />
     <div class="banner">
       <img
         v-if="data.heroImage"
@@ -61,10 +62,9 @@
 </template>
 
 <script>
-// import NavLink from './NavLink.vue'
-
+import Navbar from "../../../node_modules/@vuepress/theme-default/components/Navbar.vue";
 export default {
-  // components: { NavLink },
+  components: { Navbar },
 
   computed: {
     data () {
@@ -108,6 +108,7 @@ $codeLang = js ts html md vue css sass scss less stylus go java c sh yaml py
   max-width 960px
   margin 0px auto
   .banner
+    margin-top 60px
     text-align left
     img
       max-height 160px

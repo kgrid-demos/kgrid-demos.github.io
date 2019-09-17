@@ -2,7 +2,6 @@ module.exports = {
   base: '/',
   title: 'KGrid Demo',
   themeConfig: {
-    // logo: '/images/kgrid-logo.png',
     // repo: 'kgrid-demos/kgrid-demos.github.io',
     lastUpdated: 'Last Updated',
     nav: [
