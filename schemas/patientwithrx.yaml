@@ -23,7 +23,7 @@ patientwithprescriptionlist:
             type: string
           sig:
             type: string
-        example:
+      example:
         - rxnorm: '197391'
           medicationname: BACLOFEN 10 MG TABLET
           genericname: BACLOFEN
