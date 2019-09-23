@@ -2,7 +2,7 @@
 <template>
 <div class='apps'>
   <div class='sectiontitle'> <h2>SMART Apps <small></small></h2></div>
-  <div class='sectiondescription'><span>Once in the SMART Launcher, click on the green button at the bottom of the page to launch these SMART apps. Next, in the SMART EHR Sandbox, select a patient to use each app.</span></div>
+  <div class='sectiondescription custom-block warning'><p>Once in the SMART Launcher, click on the green button at the bottom of the page to launch these SMART apps. <br>Next, in the SMART EHR Sandbox, select a patient to use each app.</p></div>
   <div class='apppreview' v-for="post in posts">
     <div class='appicon'>
       <img
@@ -34,7 +34,7 @@ export default {
     computed: {
         posts() {
             return this.$site.pages
-                .filter(x => x.path.startsWith('/smartapps/') && !x.frontmatter.blog_index)
+                .filter(x => x.path.startsWith('/smartapps/') )
                 .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
         }
     }

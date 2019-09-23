@@ -33,7 +33,7 @@ export default {
     computed: {
         posts() {
             return this.$site.pages
-                .filter(x => x.path.startsWith('/apps/') && !x.frontmatter.blog_index)
+                .filter(x => x.path.startsWith('/apps/') )
                 .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
         }
     }
@@ -81,7 +81,8 @@ $MQMobileNarrow = 419px
       font-size 60%
       color #777
 .sectiondescription
-  padding 0px 12px
+  padding 12px 12px
+  width 100%
 .apppreview
   flex-grow 1
   flex-basis 44%

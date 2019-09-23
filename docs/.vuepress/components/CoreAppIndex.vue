@@ -35,7 +35,7 @@ export default {
     computed: {
         posts() {
             return this.$site.pages
-                .filter(x => x.path.startsWith('/coreapps/') && !x.frontmatter.blog_index)
+                .filter(x => x.path.startsWith('/coreapps/') )
                 .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
         }
     }

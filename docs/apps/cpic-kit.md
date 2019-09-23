@@ -6,6 +6,4 @@ description: CPIC Demo demonstrates the CPIC Collection. It can also be deployed
 guideurl: https://demo.kgrid.org/cpic-kit
 appurl: https://demo.kgrid.org/cpic-kit/web
 applabel: Open App
-downloadurl: https://github.com/kgrid-demos/cpic-kit/releases/latest
-downloadlabel: Download Kit
 ---

@@ -1,0 +1,61 @@
+patientwithprescriptionlist:
+  type: object
+  properties:
+    id:
+      type: string
+      example: MRCI-0G
+    prescriptions:
+      type: array
+      items:
+        type: object
+        properties:
+          rxnorm:
+            type: string
+          medicationname:
+            type: string
+          genericname:
+            type: string
+          strength:
+            type: string
+          form:
+            type: string
+          route:
+            type: string
+          sig:
+            type: string
+      example:
+        - rxnorm: '197391'
+          medicationname: BACLOFEN 10 MG TABLET
+          genericname: BACLOFEN
+          strength: 10 mg
+          form: Tablet
+          route: Oral
+          sig: 10 MG EVERY 3 HOURS
+        - rxnorm: '1360074'
+          medicationname: BECLOMETHASONE DIPROPIONATE 40 MCG/ACTUATION AEROSOL INHALER
+          genericname: BECLOMETHASONE DIPROPIONATE
+          strength: 40 mcg/actuaion
+          form: Aerolizer
+          route: Inhalation
+          sig: 2 PUFF 2 TIMES DAILY AND PRN
+        - rxnorm: '205121'
+          medicationname: MINERAL OIL ENEMA
+          genericname: MINERAL OIL
+          strength: 1 enema
+          form: Enema
+          route: Rectal
+          sig: 1 ENEMA ONCE DAILY PRN
+        - rxnorm: '309367'
+          medicationname: CLOTRIMAZOLE 1 % TOPICAL CREAM
+          genericname: CLOTRIMAZOLE
+          strength: 1 application
+          form: Cream
+          route: Topical
+          sig: 1 application 2 times daily
+        - rxnorm: '311892'
+          medicationname: NABUMETONE 500 MG TABLET
+          genericname: NABUMETONE
+          strength: 500 mg
+          form: Tablet
+          route: Oral
+          sig: TAKE AS DIRECTED

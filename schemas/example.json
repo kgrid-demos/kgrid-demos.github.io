@@ -1,0 +1,32 @@
+{
+  "id": "MRCI-0G",
+  "prescriptions": [
+    {
+      "rxnorm": "197319",
+      "medicationname": "ALLOPURINOL 100 MG TABLET",
+      "genericname": "ALLOPURINOL",
+      "strength": "100 mg",
+      "form": "Tablet",
+      "route": "Oral",
+      "sig": "250 MG ONCE DAILY"
+    },
+    {
+      "rxnorm": "359817",
+      "medicationname": "NICOTINE (POLACRILEX) 2 MG BUCCAL LOZENGE",
+      "genericname": "GEMFIBROZIL",
+      "strength": "2 mg",
+      "form": "Lozenge",
+      "route": "Buccal",
+      "sig": "4-6 MG PRN"
+    },
+    {
+      "rxnorm": "205322",
+      "medicationname": "CELECOXIB 100 MG CAPSULE",
+      "genericname": "CELECOXIB",
+      "strength": "100 mg",
+      "form": "Capsule",
+      "route": "Oral",
+      "sig": "100 mg EVERY MORNING AND EVENING"
+    }
+  ]
+}
