@@ -1,6 +1,6 @@
 ---
 title: Post PCI
-icon: /images/pci.jpg
+fa: heartbeat
 date: 2018-10-12
 description: Post PCI demonstrates the risk score calculation and visualization.
 guideurl: https://demo.kgrid.org/cardiac-advisor
