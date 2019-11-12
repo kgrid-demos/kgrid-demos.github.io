@@ -9,9 +9,9 @@
       "tag_name": "1.2.2"
     },
     "activator": {
-      "url": "https://github.com/kgrid/kgrid-activator/releases/download/1.1.2/kgrid-activator-1.1.2.jar",
-      "filename": "kgrid-activator-1.1.2.jar",
-      "tag_name": "1.1.2"
+      "url": "https://github.com/kgrid/kgrid-activator/releases/download/1.1.4/kgrid-activator-1.1.4.jar",
+      "filename": "kgrid-activator-1.1.4.jar",
+      "tag_name": "1.1.4"
     }
   }
 }
