@@ -37,9 +37,7 @@
         <h2>{{ feature.title }}</h2>
         <p>{{ feature.details }}</p>
 
-
         <label class='launch' v-if='feature.appurl'><a :href="feature.appurl">Launch App</a></label>
-        <label class='download' v-if='feature.downloadurl'><a :href="feature.downloadurl">Download Kit</a></label>
         <label class='guide' v-if='feature.guideurl'><a :href="feature.guideurl">Learn More</a></label>
       </div>
     </div>

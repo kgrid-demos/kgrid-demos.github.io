@@ -1,7 +1,7 @@
 {
-  "name": "Cancer-Advisor",
+  "name": "Kgird_demo",
   "version": "1.0.0",
-  "description": "KGrid Cancer Advisor Demo App",
+  "description": "KGrid Demo Homepage",
   "main": " ",
   "scripts": {
     "docs:dev": "vuepress dev docs",
