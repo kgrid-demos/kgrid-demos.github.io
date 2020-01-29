@@ -1,0 +1,13 @@
+{
+  "manifest": [
+    "https://github.com/kgrid-objects/example-collection/releases/download/2.0.0/99999-fk4n99hh99-v0.0.2.zip",
+    "https://github.com/kgrid-objects/example-collection/releases/download/2.0.0/exec-example-v1.0.0.zip",
+    "https://github.com/kgrid-objects/example-collection/releases/download/2.0.0/exec-step-v1.0.0.zip",
+    "https://github.com/kgrid-objects/example-collection/releases/download/2.0.0/hello-world-v1.0.zip",
+    "https://github.com/kgrid-objects/example-collection/releases/download/2.0.0/hello-world-v1.3.zip",
+    "https://github.com/kgrid-objects/example-collection/releases/download/2.0.0/ri-bmicalc-v2.0.zip",
+    "https://github.com/kgrid-objects/example-collection/releases/download/2.0.0/score-calc-v0.1.0.zip",
+    "https://github.com/kgrid-objects/example-collection/releases/download/2.0.0/score-calc-v0.2.0.zip",
+    "https://github.com/kgrid-objects/example-collection/releases/download/2.0.0/score-calc-v0.3.0.zip"
+  ]
+}
