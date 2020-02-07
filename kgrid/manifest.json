@@ -4,14 +4,14 @@
   "description": "KGrid",
   "kitAssets": {
     "library": {
-      "url": "https://github.com/kgrid/kgrid-library/releases/download/1.2.3/kgrid-library-1.2.3.jar",
-      "filename": "kgrid-library-1.2.3.jar",
-      "tag_name": "1.2.3"
+      "url": "https://github.com/kgrid/kgrid-library/releases/download/1.2.4/kgrid-library-1.2.4.jar",
+      "filename": "kgrid-library-1.2.4.jar",
+      "tag_name": "1.2.4"
     },
     "activator": {
-      "url": "https://github.com/kgrid/kgrid-activator/releases/download/1.1.5/kgrid-activator-1.1.5.jar",
-      "filename": "kgrid-activator-1.1.5.jar",
-      "tag_name": "1.1.5"
+      "url": "https://github.com/kgrid/kgrid-activator/releases/download/1.2.0/kgrid-activator-1.2.0.jar",
+      "filename": "kgrid-activator-1.2.0.jar",
+      "tag_name": "1.2.0"
     }
   }
 }
