@@ -1,17 +1,21 @@
-   {
-      "patient":{
-        "id": "ipp-patient-E01",
-        "features":{
-          "age":50,
-          "race":0,
-          "gender":"Male",
-          "edu": 5,
-          "emp": true,
-          "fam": 2,
-          "smokeyear": 30,
-          "quityear": 20,
-          "cigpday": 20,
-          "bmi": 22.5
-        }
-      }
+{
+  "patient":{
+    "id": "TR01-patient-S01",
+    "features":{
+      "age":50,
+      "race":0,
+      "gender":"Male",
+      "edu": 5,
+      "emp": true,
+      "fam": 2,
+      "smokeyear": 30,
+      "quityear": 20,
+      "cigpday": 20,
+      "bmi": 22.5,
+      "colitis": 1,
+      "fap": 1,
+      "hiv": 2,
+      "famcrc": 2
     }
+  }
+}
