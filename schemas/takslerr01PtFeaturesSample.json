@@ -15,7 +15,12 @@
       "colitis": false,
       "fap": true,
       "hiv": "Unknown",
-      "famcrc": "None"
+      "famcrc": "None",
+      "famtest": 0,
+	  "cad": 0,
+	  "totalcholesterol":2,
+      "cerenrovas":true,
+      "diabetes":0
     }
   }
 }
