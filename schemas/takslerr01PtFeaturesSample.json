@@ -1,21 +1,21 @@
 {
   "patient":{
     "id": "TR01-patient-S01",
-    "features":{
-      "age":50,
-      "race":0,
-      "gender":"Male",
+ "features": {
+      "age": 50,
+      "gender": "Female",
+      "race": "All Other Race",
       "edu": 5,
       "emp": true,
-      "fam": 2,
+      "famlc": 2,
       "smokeyear": 30,
-      "quityear": 20,
-      "cigpday": 20,
-      "bmi": 22.5,
-      "colitis": 1,
-      "fap": 1,
-      "hiv": 2,
-      "famcrc": 2
+      "quityear": 7,
+      "cigpday": 5,
+      "bmi": 32.5,
+      "colitis": false,
+      "fap": true,
+      "hiv": "Unknown",
+      "famcrc": "None"
     }
   }
 }
