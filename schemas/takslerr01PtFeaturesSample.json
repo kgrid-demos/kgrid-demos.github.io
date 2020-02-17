@@ -3,7 +3,7 @@
     "id": "TR01-patient-S01",
  "features": {
       "age": 50,
-      "gender": "Female",
+      "gender": "Male",
       "race": "All Other Race",
       "edu": 5,
       "emp": true,
