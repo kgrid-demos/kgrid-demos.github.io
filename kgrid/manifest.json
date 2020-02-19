@@ -1,12 +1,12 @@
 {
   "name": "kgrid",
-  "version": "1.2.3",
+  "version": "1.2.5",
   "description": "KGrid",
   "kitAssets": {
     "library": {
-      "url": "https://github.com/kgrid/kgrid-library/releases/download/1.2.4/kgrid-library-1.2.4.jar",
-      "filename": "kgrid-library-1.2.4.jar",
-      "tag_name": "1.2.4"
+      "url": "https://github.com/kgrid/kgrid-library/releases/download/1.2.5/kgrid-library-1.2.5.jar",
+      "filename": "kgrid-library-1.2.5.jar",
+      "tag_name": "1.2.5"
     },
     "activator": {
       "url": "https://github.com/kgrid/kgrid-activator/releases/download/1.2.0/kgrid-activator-1.2.0.jar",
