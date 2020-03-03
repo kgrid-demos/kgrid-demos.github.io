@@ -1,8 +1,8 @@
 {
-  "patient":{
+  "patient": {
     "id": "TR01-patient-S01",
- "features": {
-      "age": 50,
+    "features": {
+      "age": 65,
       "gender": "Male",
       "race": "All Other Race",
       "edu": 5,
@@ -17,10 +17,22 @@
       "hiv": "Unknown",
       "famcrc": "None",
       "famtest": 0,
-	  "cad": 0,
-	  "totalcholesterol":2,
-      "cerenrovas":true,
-      "diabetes":0
+      "cad": true,
+      "totalcholesterol": 2,
+      "cerenrovas": true,
+      "diabetes": 0,
+      "hypertension": true,
+      "famaaa":true,
+      "hicholesterol": true,
+      "diabetes": true,
+      "pad": true,
+      "cerebrovascular": true,
+      "carotid":false, 
+      "sexpartner":"0-1",
+      "fulltmpregnance":"1-2",
+      "ageat1stbirth":"20-24",
+      "oralcontraceptivecurrent":true,
+      "HPVpositive":false
     }
   }
 }
