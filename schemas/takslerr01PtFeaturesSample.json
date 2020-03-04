@@ -3,7 +3,7 @@
     "id": "TR01-patient-S01",
     "features": {
       "age": 65,
-      "gender": "Male",
+      "gender": "Female",
       "race": "All Other Race",
       "edu": 5,
       "emp": true,
@@ -20,7 +20,6 @@
       "cad": true,
       "totalcholesterol": 2,
       "cerenrovas": true,
-      "diabetes": 0,
       "hypertension": true,
       "famaaa":true,
       "hicholesterol": true,
@@ -28,9 +27,9 @@
       "pad": true,
       "cerebrovascular": true,
       "carotid":false, 
-      "sexpartner":"0-1",
-      "fulltmpregnancy":"1-2",
-      "ageat1stbirth":"20-24",
+      "sexpartner":1,
+      "fulltmpregnancy":1,
+      "ageat1stbirth":22,
       "oralcontraceptivecurrent":true,
       "HPVpositive":false
     }
