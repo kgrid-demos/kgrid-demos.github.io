@@ -26,12 +26,15 @@
       "diabetes": true,
       "pad": true,
       "cerebrovascular": true,
-      "carotid":false, 
+      "carotid":false,
       "sexpartner":1,
       "fulltmpregnancy":1,
       "ageat1stbirth":22,
       "oralcontraceptivecurrent":true,
-      "HPVpositive":false
+      "HPVpositive":false,
+      "hxbngnbiopsy":"1 Time",
+      "biopsyathyperplasia":"Unknown",
+      "fambc":">1"
     }
   }
 }
