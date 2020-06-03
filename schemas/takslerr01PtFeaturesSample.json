@@ -34,7 +34,13 @@
       "HPVpositive":false,
       "hxbngnbiopsy":"1 Time",
       "biopsyathyperplasia":"Unknown",
-      "fambc":">1"
+      "fambc":">1",
+      "hdl": 30,
+      "ldl": 80,
+      "sbp": 110,
+      "htmedication":false,
+      "bpcontrol": false,
+      "cholesterolcontrol": false
     }
   }
 }
