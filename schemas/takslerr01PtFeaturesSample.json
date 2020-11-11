@@ -5,6 +5,8 @@
           "age": 60,
           "gender": 1,
           "race": 0,
+          "racelc":0,
+          "racebc":1,
           "edu": 2,
           "emp": 1,
           "famlc": 2,
@@ -43,7 +45,8 @@
           "CG_risk": 0,
           "Syphilis_risk": 0,
           "Flu_risk": 0,
-          "Pneumonia_risk": 0
+          "Pneumonia_risk": 0,
+          "medicines":0
       }
   }
 }
