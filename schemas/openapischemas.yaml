@@ -1,0 +1,18 @@
+genericresponse:
+  type: object
+  required:
+    - result
+  properties:
+    result:
+      type: object
+genericerror:
+  type: object
+  required:
+  - code
+  - message
+  properties:
+    code:
+      type: integer
+      format: int32
+    message:
+      type: string
