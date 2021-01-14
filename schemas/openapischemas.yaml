@@ -1,24 +1,27 @@
-apiversion:
-  in: query
-  required: false
-  name: v
-  schema:
-    type: string
-genericresponse:
-  type: object
-  required:
-    - result
-  properties:
-    result:
+components:
+  parameters:
+    apiversion:
+      in: query
+      required: false
+      name: v
+      schema:
+        type: string
+  schemas:
+    genericresponse:
       type: object
-genericerror:
-  type: object
-  required:
-  - code
-  - message
-  properties:
-    code:
-      type: integer
-      format: int32
-    message:
-      type: string
+      required:
+        - result
+      properties:
+        result:
+          type: object
+    genericerror:
+      type: object
+      required:
+      - code
+      - message
+      properties:
+        code:
+          type: integer
+          format: int32
+        message:
+          type: string
