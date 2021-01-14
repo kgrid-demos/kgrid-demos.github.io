@@ -4,8 +4,6 @@ apiversion:
   name: v
   schema:
     type: string
-    default:
-      $ref: '#/info/version'
 genericresponse:
   type: object
   required:
