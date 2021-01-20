@@ -1,3 +1,4 @@
+# Note: $ref: doesn't work with references to parent document
 components:
   parameters:
     apiversion:
@@ -6,7 +7,12 @@ components:
       name: v
       schema:
         type: string
+#        default: 
+#          $ref: #/info/version 
   schemas:
+# Since we can't refer to a KO specific schema in parent doc
+# this is problematic. We lose the definition of outputs for the KO API
+# Copy generic response to parent doc and add/refer to local KO schema.
     genericresponse:
       type: object
       required:
@@ -14,7 +20,9 @@ components:
       properties:
         result:
           type: object
+#          schema: $ref: <local schema in parent doc>
     genericerror:
+# Generic error schema works because the ACtivator owns this schem; not KO specific
       type: object
       required:
       - code
