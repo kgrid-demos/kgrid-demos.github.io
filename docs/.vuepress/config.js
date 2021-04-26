@@ -10,7 +10,6 @@ module.exports = {
       // { text: 'apps', link: '/apps/' },
       { text: 'External Links',
               items: [
-                { text: 'KO Service in Swagger Editor', link: 'https://editor.swagger.io/?url=https://activator.kgrid.org/kos/hello/world/v0.1.0/service' },
                 { text: 'SMART on FHIR STU3 Sandbox Patient Browser', link: 'https://patient-browser.smarthealthit.org/index.html?config=r3#/' },
                 { text: 'SMART on FHIR App Launcher', link: 'https://launch.smarthealthit.org' },
               ]
