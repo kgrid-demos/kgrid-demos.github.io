@@ -41,13 +41,20 @@
       "htmedication": 0,
       "a1c": 0.057,
       "clinical_risk": 0,
-      "hiv_risk": 0,
-      "cg_risk": 0,
-      "syphilis_risk": 0,
-      "flu_risk": 0,
-      "pneumonia_risk": 0,
-      "alcohol_abuse": 1,
-      "sexual_risk": 1
+      "HIV_risk": 0,
+      "CG_risk": 0,
+      "Syphilis_risk": 0,
+      "Flu_risk": 0,
+      "Pneumonia_risk": 0,
+      "diabetes_duration": 0,
+      "heartrate": 80,
+      "wbc": 7.500,
+      "haemoglobin": 14.5,
+      "egfr": 95,
+      "af": 0,
+      "pvd": 0,
+      "albuminuria": 2,
+      "ascvd": 0
     }
   }
 }
