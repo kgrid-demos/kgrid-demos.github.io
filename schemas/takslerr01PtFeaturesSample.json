@@ -46,6 +46,8 @@
       "Syphilis_risk": 0,
       "Flu_risk": 0,
       "Pneumonia_risk": 0,
+      "alcohol_abuse": 1,
+      "sexual_risk": 0,
       "diabetes_duration": 0,
       "heartrate": 80,
       "wbc": 7.500,
